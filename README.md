@@ -35,8 +35,8 @@ Run this script and update the version of the image deployed in the k8s cluster 
 
 ```BASH
 cd ../argo
-k apply -f application.yaml
-k delete -f applicarion.yaml
+kubectl apply -f application.yaml
+kubectl delete -f applicarion.yaml
 ```
 
 ## EXAMPLE 2
@@ -82,3 +82,5 @@ k apply -f application.yaml
 k delete -f applicarion.yaml
 k delete -f git-repo-secret.yaml
 ```
+
+END FILE
