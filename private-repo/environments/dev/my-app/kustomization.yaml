@@ -1,0 +1,7 @@
+---
+namespace: staging
+images:
+  - name: pblgllgs/pod
+    newTag: blue
+resources:
+  - ../../../my-app-base
